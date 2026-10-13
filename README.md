@@ -19,7 +19,7 @@ php tests/sync_test.php
 php -S localhost:8080 -t public public/index.php
 ```
 
-Railway автоматически собирает Dockerfile (официальный PHP 8.3 + Apache). Публичный домен направляется на порт 80. Healthcheck: /healthz.
+Railway автоматически собирает Dockerfile (официальный PHP 8.3 + Apache). Публичный домен направляется на порт 8080. Healthcheck: /healthz.
 
 ## Секреты и выбор решения
 
